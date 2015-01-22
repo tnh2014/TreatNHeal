@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DBTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_doctors_list">doctorsList</string>
+    <string name="title_activity_add_patient">AddPatient</string>
+    <string name="title_activity_app_menu">AppMenu</string>
+    <string name="title_activity_search_doctor">SearchDoctor</string>
+    <string name="title_activity_drugs_ntreatment">DrugsNTreatment</string>
+    <string name="title_activity_list_pharmacy">ListPharmacy</string>
+    <string name="title_activity_appointment_list">AppointmentList</string>
+    <string name="title_activity_appointment">Appointment</string>
+    <string name="title_activity_appointment_dateand_time">AppointmentDateandTime</string>
+    <string name="title_activity_doctor_info">DoctorInfo</string>
+    <string name="title_activity_image_processed">ImageProcessed</string>
+    <string name="title_activity_new_diagnosis">NewDiagnosis</string>
+    <string name="title_activity_scan_image">ScanImage</string>
+    <string name="title_activity_similar_case">SimilarCase</string>
+    <string name="title_activity_treatment">Treatment</string>
+    <string name="title_activity_treatment_list">TreatmentList</string>
+    <string name="title_activity_patient_menu">PatientMenu</string>
+    <string name="title_activity_existing_patient">ExistingPatient</string>
+    <string name="title_activity_patient_info">PatientInfo</string>
+    <string name="title_activity_treatment_info">TreatmentInfo</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.treat_n_heal.dbtest.Treatment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/contentbg"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment Name"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/trinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment Info"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/trstage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment Stage"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/trdrugs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Drugs Prescribed"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <Button
+            android:id="@+id/appointment"
+            android:text="Give Appointment"
+            android:onClick="giveAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/exitmain"
+            android:text="Exit to App Menu"
+            android:onClick="goMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

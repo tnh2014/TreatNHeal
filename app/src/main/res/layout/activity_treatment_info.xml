@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.treat_n_heal.dbtest.TreatmentInfo">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/contentbg"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/wname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Disease Name"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/tname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment given"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/tinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment Info"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/tstage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Treatment Stage"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <EditText
+            android:id="@+id/tdrugs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Drugs Prescription"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <Button
+            android:id="@+id/exitdmain"
+            android:text="Exit to App Menu"
+            android:onClick="goMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

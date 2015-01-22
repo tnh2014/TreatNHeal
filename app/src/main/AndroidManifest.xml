@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.treat_n_heal.dbtest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Treat N Heal"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Treat N Heal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".doctorsList"
+            android:label="List Doctors" >
+        </activity>
+        <activity
+            android:name=".AddPatient"
+            android:label="Add Patient" >
+        </activity>
+        <activity
+            android:name=".AppMenu"
+            android:label="App Menu" >
+        </activity>
+        <activity
+            android:name=".SearchDoctor"
+            android:label="Search Doctor" >
+        </activity>
+        <activity
+            android:name=".DrugsNTreatment"
+            android:label="Search Disease" >
+        </activity>
+        <activity
+            android:name=".ListPharmacy"
+            android:label="List of Pharmacies" >
+        </activity>
+        <activity
+            android:name=".AppointmentList"
+            android:label="List of Appointments" >
+        </activity>
+        <activity
+            android:name=".Appointment"
+            android:label="Appointment" >
+        </activity>
+        <activity
+            android:name=".AppointmentDateandTime"
+            android:label="Date and Time of Appointment" >
+        </activity>
+        <activity
+            android:name=".DoctorInfo"
+            android:label="Doctor&apos;s Info" >
+        </activity>
+        <activity
+            android:name=".ImageProcessed"
+            android:label="Processing of Image" >
+        </activity>
+        <activity
+            android:name=".NewDiagnosis"
+            android:label="New Diagnosis" >
+        </activity>
+        <activity
+            android:name=".ScanImage"
+            android:label="Scanning of Image" >
+        </activity>
+        <activity
+            android:name=".SimilarCase"
+            android:label="Compare Similar Case" >
+        </activity>
+        <activity
+            android:name=".Treatment"
+            android:label="Treatment" >
+        </activity>
+        <activity
+            android:name=".PatientMenu"
+            android:label="Patient Menu" >
+        </activity>
+        <activity
+            android:name=".ExistingPatient"
+            android:label="Existing Patients List" >
+        </activity>
+        <activity
+            android:name=".PatientInfo"
+            android:label="@string/title_activity_patient_info" >
+        </activity>
+        <activity
+            android:name=".TreatmentInfo"
+            android:label="@string/title_activity_treatment_info" >
+        </activity>
+    </application>
+
+</manifest>

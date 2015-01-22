@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.treat_n_heal.dbtest.doctorsList">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/contentbg"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/searchDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Doctor Firstname"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#ffffff"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:text="Search"
+            android:onClick="searchDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/ExitButton"
+            android:text="Exit to main"
+            android:onClick="mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>
