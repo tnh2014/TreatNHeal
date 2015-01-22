@@ -4,6 +4,8 @@
     tools:context=".MainActivity"
     android:background="#c0c0c0">
 
+    <!-- Main screen -->
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
